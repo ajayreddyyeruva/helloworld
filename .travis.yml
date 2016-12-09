@@ -1,0 +1,9 @@
+language: php
+php:
+  - 5.5
+  - 5.4
+script: phpunit test.php
+
+notifications:
+ email: true
+ on failure: always
